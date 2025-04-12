@@ -5,6 +5,8 @@ import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 import Navbar from "@/components/Navbar";
 import SmoothScrolling from "@/components/SmoothScrolling";
+import Footer from "@/components/Footer";
+import Copyright from "@/components/Copyright";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,8 +35,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}
       >
         <SmoothScrolling>
-          {/* <Navbar /> */}
+          <Navbar />
           {children}
+          <Footer />
+          <Copyright />
         </SmoothScrolling>
       </body>
     </html>

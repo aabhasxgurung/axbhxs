@@ -7,6 +7,13 @@
   --foreground: #171717;
   --primary: 232 79% 59%;
   --primary-foreground: 231 65% 51%;
+  --bgreen: #0ae448;
+  --bblue: #00bad5;
+  --bviolet: #9d95ff;
+  --bpink: #fec5fb;
+  --borange: #ff8709;
+  --sectext: #d1d1d1;
+  --placeholder: #454533;
   /* --primary: 240 5.9% 10%;
   --primary-foreground: 0 0% 98%;
 

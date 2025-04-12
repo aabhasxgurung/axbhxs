@@ -24,7 +24,7 @@ const About = () => {
           </main>
         </div>
         <div className="flex flex-col w-screen gap-1 px-4 text-primarytext sm:px-8 md:px-10 sm:text-2xl max-w-[104rem]">
-          <h1 className="pb-1 pr-2 mt-8 text-2xl font-semibold text-green-500 sm:text-3xl md:text-4xl sm:pt-3">
+          <h1 className="pb-1 pr-2 mt-8 text-2xl font-semibold text-[#0AE448] sm:text-3xl md:text-4xl sm:pt-3">
             Coding the Future
             <br />
             Architecting Innovation

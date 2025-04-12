@@ -51,6 +51,7 @@ const Navbar = () => {
                   </Link>
                 ))}
               </ul>
+              <div className="lg:hidden text-text-primary"></div>
             </div>
           </div>
           <div className="hidden gap-5 text-base lg:flex lg:items-center text-text-primary lg:border lg:border-border-bline rounded-3xl lg:p-3">
